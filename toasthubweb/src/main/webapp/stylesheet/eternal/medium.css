@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+body {font-family:verdana; font-size:medium;}
+h1 { font-size:1em; margin-top:0; color:#FFFFFF;}
+h3 { font-size:0.8em;}
+
+.ui-death-item-content { padding: 0.4em; display:none;}
+
+
+#nav-right-area { 
+	width: 50%;
+}
+
+#nav-left-area { 
+	width: 50%;
+}
+
+ul.ui-list {
+	list-style: none;  
+     padding: 0 20px;  
+     margin: 0;  
+}
+ul.ui-list li a{  
+     padding: 10px 5px;  
+     color: #fff;  
+     display: block;  
+     text-decoration: none;
+}
+ul.ui-list-menu {
+	list-style: none;  
+    padding: 0 20px;  
+    margin: 0;  
+}
+ul.ui-list-menu li {
+	border:1px solid #dddddd;
+	padding: 10px 5px;  
+    color: #000;  
+    display: block;
+    cursor:pointer;  
+    text-decoration: none;
+}
+ul.ui-list-menu li:hover {
+	background: #ffffff;
+	color:#000; 
+}
+
+.ui-text-green { color:green; text-align:right}
+.ui-text-red { color:red; text-align:right}
+
+#pagesRight p,
+#pagesRight h2 {
+	padding: 3px 35px;
+	line-height: 1.4em;
+	text-align: justify;
+}
+#pagesRight h2{
+	margin: 15px 0 10px;
+}
+
+#pageflip-canvas {
+	position: absolute;
+	z-index: 100;
+}
+#book-arrow-right {
+	height: 32px;
+	width: 32px;
+	background: url("/rockychart/img/icons/arrow-right-32.png") no-repeat;
+	z-index: 100;
+}
+#book-arrow-left {
+	height: 32px;
+	width: 32px;
+	background: url("/rockychart/img/icons/arrow-left-32.png") no-repeat;
+	z-index: 100;
+}
+
+.searchwrapper {
+    background: -moz-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent;
+    border: 1px solid #D2D2D2;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.searchwrapper .searchfield {
+	font: 12px/100% Arial,Helvetica,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BCBBBB;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+    outline: medium none;
+    padding: 6px 6px 6px 8px;
+    width: 202px;
+}
+
+.searchwrapper .searchbutton {
+    background: -moz-linear-gradient(center top , #9E9E9E, #454545) repeat scroll 0 0 transparent;
+    border: 1px solid #494949;
+    border-radius: 2em 2em 2em 2em;
+    color: #FFFFFF;
+    font-size: 11px;
+    height: 27px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    width: 27px;
+}

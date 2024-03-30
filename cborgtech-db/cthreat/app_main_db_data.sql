@@ -1,0 +1,7 @@
+
+INSERT INTO clients (name,client_type,created) VALUES ('cthreat1','cthreat',null);
+INSERT INTO clientdomains (client_id,url_domain,app_domain,app_name,html_prefix,public_layout,admin_layout,member_layout,sysadmin_layout,created) VALUES ((SELECT clients.id FROM clients WHERE name='cthreat1'),'cborghome.ddns.net','cthreat1','cthreat','cthreat','publicLayout','adminLayout','memberLayout',null,null);
+INSERT INTO clientdomains (client_id,url_domain,app_domain,app_name,html_prefix,public_layout,admin_layout,member_layout,sysadmin_layout,created) VALUES ((SELECT clients.id FROM clients WHERE name='cthreat1'),'cthreat','cthreat1','cthreat','cthreat','publicLayout','adminLayout','memberLayout',null,null);
+
+INSERT INTO clientdomains (client_id,url_domain,app_domain,app_name,html_prefix,public_layout,admin_layout,member_layout,sysadmin_layout,created) VALUES ((SELECT clients.id FROM clients WHERE name='cthreat1'),'localhost','cthreat1','cthreat','cthreat','publicLayout','adminLayout','memberLayout',null,null);
+INSERT INTO clientdomains (client_id,url_domain,app_domain,app_name,html_prefix,public_layout,admin_layout,member_layout,sysadmin_layout,created) VALUES ((SELECT clients.id FROM clients WHERE name='cthreat1'),'10.0.1.9','cthreat1','cthreat','cthreat','publicLayout','adminLayout','memberLayout',null,null);

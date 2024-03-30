@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description"
+	content="Your emergency alert system on the go.">
+<meta name="author" content="ABELHECT">
+<link rel="icon" href="../../favicon.ico">
+
+<title>C-THREAT: Your emergency alert system on the go.</title>
+
+<!-- This is our Google Arvo Font and Font Awesome-->
+<link href='https://fonts.googleapis.com/css?family=Arvo'
+	rel='stylesheet' type='text/css'>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/custom-cthreat.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><strong>C-THREAT</strong></a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="watch.html">WATCH</a></li>
+					<li><a href="demo.html">DEMO APP</a></li>
+		            <li><a href="images/cthreat-alpha2-release.apk">DOWNLOAD</a></li>
+		            <li><a href="whoWeAre.html">WHO WE ARE</a></li>
+		            <li><a href="signUp.html">TELL US!</a></li> 
+				</ul>
+			</div>
+			<!--/.navbar-collapse -->
+		</div>
+	</nav>
+
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+	<div class="jumbotron">
+		<div class="container">
+			<!-- Here is where the prototype begins -->
+			<h4>Navigate through the App design by clicking on the buttons</h4>
+			<!-- Division 1 -->
+			<div class="Page" id="main_page">
+
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/main.png"
+						usemap="#map_main" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_main">
+					<area shape="rect"
+						coords="250.98333740234375,571.9833374023438,351,642"
+						href="#ih2m1describewhathappened_page"
+						title="Go to page 'IH2M1-DescribeWhatHappened'" />
+					<area shape="rect"
+						coords="43,571.9833374023438,143.01666259765625,642"
+						href="#ee1options_page" title="Go to page 'EE1-Options'" />
+					<area shape="rect" coords="94,148,125,179"
+						href="#ca1configradiusaroundu_page"
+						title="Go to page 'CA1-ConfigRadiusAroundU'" />
+					<area shape="rect" coords="270,146.98333740234375,301,178"
+						href="#sf1options2findfriends_page"
+						title="Go to page 'SF1-Options2FindFriends'" />
+					<area shape="rect" coords="315,148,346,179"
+						href="#se1nearyouoraddress_page"
+						title="Go to page 'SE1-NearYouOrAddress'" />
+					<area shape="rect" coords="32,140,92,186" href="#mm1options_page"
+						title="Go to page 'MM1-Options'" />
+				</map>
+			</div>
+			<!-- Division 2 -->
+			<div class="Page" id="ee1options_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/ee1options.png"
+						usemap="#map_ee1options" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ee1options">
+					<area shape="rect" coords="77,329,148,400"
+						href="#ee2connect911orcancel_page"
+						title="Go to page 'EE2-Connect911orCancel'" />
+					<area shape="rect" coords="298,283,328,313" href="#main_page"
+						title="Go to page 'Main'" />
+				</map>
+			</div>
+			<!-- Division 3 -->
+			<div class="Page" id="ee2connect911orcancel_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/ee2connect911orcancel.png"
+						usemap="#map_ee2connect911orcancel" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ee2connect911orcancel">
+					<area shape="rect" coords="212,501,308,537"
+						href="#ee3takepicorconfirm_page"
+						title="Go to page 'EE3-TakePicOrConfirm'" />
+					<area shape="rect" coords="86,501,182,537" href="#main_page"
+						title="Go to page 'Main'" />
+				</map>
+			</div>
+			<!-- Division 4 -->
+			<div class="Page" id="ee3takepicorconfirm_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/ee3takepicorconfirm.png"
+						usemap="#map_ee3takepicorconfirm" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ee3takepicorconfirm">
+					<area shape="rect" coords="208,452,304,488"
+						href="#ee4mainwconfirmedevent_page"
+						title="Go to page 'EE4-Main-w-ConfirmedEvent'" />
+					<area shape="rect" coords="90,452,186,488" href="#ee31takepic_page"
+						title="Go to page 'EE3.1-TakePic'" />
+				</map>
+			</div>
+			<!-- Division 5 -->
+			<div class="Page" id="ee31takepic_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/ee31takepic.png"
+						usemap="#map_ee31takepic" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ee31takepic">
+					<area shape="rect" coords="91,547,305,624"
+						href="#ee32confirmpicorretake_page"
+						title="Go to page 'EE3.2-ConfirmPicOrRetake'" />
+				</map>
+			</div>
+			<!-- Division 6 -->
+			<div class="Page" id="ee32confirmpicorretake_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/ee32confirmpicorretake.png"
+						usemap="#map_ee32confirmpicorretake" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ee32confirmpicorretake">
+					<area shape="rect" coords="82,451,178,487" href="#ee31takepic_page"
+						title="Go to page 'EE3.1-TakePic'" />
+					<area shape="rect" coords="146,503,242,539"
+						href="#ee4mainwconfirmedevent_page"
+						title="Go to page 'EE4-Main-w-ConfirmedEvent'" />
+				</map>
+			</div>
+			<!-- Division 7 -->
+			<div class="Page" id="ee4mainwconfirmedevent_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/ee4mainwconfirmedevent.png"
+						usemap="#map_ee4mainwconfirmedevent" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ee4mainwconfirmedevent">
+					<area shape="rect" coords="251,572,351,642"
+						href="#ih2m1describewhathappened_page"
+						title="Go to page 'IH2M1-DescribeWhatHappened'" />
+					<area shape="rect" coords="43,572,143,642" href="#ee1options_page"
+						title="Go to page 'EE1-Options'" />
+					<area shape="rect" coords="94,148,125,179"
+						href="#ca1configradiusaroundu_page"
+						title="Go to page 'CA1-ConfigRadiusAroundU'" />
+					<area shape="rect" coords="270,147,301,178"
+						href="#sf1options2findfriends_page"
+						title="Go to page 'SF1-Options2FindFriends'" />
+					<area shape="rect" coords="315,148,346,179"
+						href="#se1nearyouoraddress_page"
+						title="Go to page 'SE1-NearYouOrAddress'" />
+					<area shape="rect" coords="32,140,92,186" href="#mm1options_page"
+						title="Go to page 'MM1-Options'" />
+				</map>
+			</div>
+			<!-- Division 8 -->
+			<div class="Page" id="se1nearyouoraddress_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/se1nearyouoraddress.png"
+						usemap="#map_se1nearyouoraddress" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_se1nearyouoraddress">
+					<area shape="rect" coords="86,437,116,467" href="#main_page"
+						title="Go to page 'Main'" />
+					<area shape="rect" coords="197,248,238,289"
+						href="#se2mainwfoundevents_page"
+						title="Go to page 'SE2-Main-w-FoundEvents'" />
+				</map>
+			</div>
+			<!-- Division 9 -->
+			<div class="Page" id="se2mainwfoundevents_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/se2mainwfoundevents.png"
+						usemap="#map_se2mainwfoundevents" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_se2mainwfoundevents">
+					<area shape="rect" coords="251,572,351,642"
+						href="#ih2m1describewhathappened_page"
+						title="Go to page 'IH2M1-DescribeWhatHappened'" />
+					<area shape="rect" coords="43,572,143,642" href="#ee1options_page"
+						title="Go to page 'EE1-Options'" />
+					<area shape="rect" coords="43,572,143,642" href="#ee1options_page"
+						title="Go to page 'EE1-Options'" />
+					<area shape="rect"
+						coords="271,239.46665954589844,307.3833312988281,281.98333740234375"
+						href="#se3openexistingevent_page"
+						title="Go to page 'SE3-OpenExistingEvent'" />
+					<area shape="rect"
+						coords="67,264.4666748046875,103.38333129882812,306.9833526611328"
+						href="#se3openexistingevent_page"
+						title="Go to page 'SE3-OpenExistingEvent'" />
+					<area shape="rect"
+						coords="299,279.4666748046875,335.3833312988281,321.9833526611328"
+						href="#se3openexistingevent_page"
+						title="Go to page 'SE3-OpenExistingEvent'" />
+					<area shape="rect"
+						coords="301,444.98333740234375,337.3833312988281,487.5"
+						href="#se3openexistingevent_page"
+						title="Go to page 'SE3-OpenExistingEvent'" />
+					<area shape="rect"
+						coords="100.98333740234375,364.98333740234375,137.36666870117188,407.5"
+						href="#se3openexistingevent_page"
+						title="Go to page 'SE3-OpenExistingEvent'" />
+					<area shape="rect"
+						coords="104.98333740234375,474.98333740234375,141.36666870117188,517.5"
+						href="#se3openexistingevent_page"
+						title="Go to page 'SE3-OpenExistingEvent'" />
+					<area shape="rect"
+						coords="241,352.98333740234375,277.3666687011719,395.5"
+						href="#se3openexistingevent_page"
+						title="Go to page 'SE3-OpenExistingEvent'" />
+					<area shape="rect" coords="94,148,125,179"
+						href="#ca1configradiusaroundu_page"
+						title="Go to page 'CA1-ConfigRadiusAroundU'" />
+					<area shape="rect" coords="270,147,301,178"
+						href="#sf1options2findfriends_page"
+						title="Go to page 'SF1-Options2FindFriends'" />
+					<area shape="rect" coords="315,148,346,179"
+						href="#se1nearyouoraddress_page"
+						title="Go to page 'SE1-NearYouOrAddress'" />
+					<area shape="rect" coords="32,140,92,186" href="#mm1options_page"
+						title="Go to page 'MM1-Options'" />
+				</map>
+			</div>
+			<!-- Division 10 -->
+			<div class="Page" id="se3openexistingevent_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/se3openexistingevent.png"
+						usemap="#map_se3openexistingevent" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_se3openexistingevent">
+					<area shape="rect" coords="183,494,213,524"
+						href="#se2mainwfoundevents_page"
+						title="Go to page 'SE2-Main-w-FoundEvents'" />
+				</map>
+			</div>
+			<!-- Division 11 -->
+			<div class="Page" id="ih2m1describewhathappened_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/ih2m1describewhathappened.png"
+						usemap="#map_ih2m1describewhathappened" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ih2m1describewhathappened">
+					<area shape="rect" coords="151,556,247,592"
+						href="#ih2m2confirm_page" title="Go to page 'IH2M2-Confirm'" />
+					<area shape="rect" coords="188,614,218,644" href="#main_page"
+						title="Go to page 'Main'" />
+				</map>
+			</div>
+			<!-- Division 12 -->
+			<div class="Page" id="ih2m2confirm_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/ih2m2confirm.png"
+						usemap="#map_ih2m2confirm" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ih2m2confirm">
+					<area shape="rect" coords="208,466,304,502"
+						href="#ih2m3mainwposted_page"
+						title="Go to page 'IH2M3-Main-w-Posted'" />
+					<area shape="rect" coords="90,466,186,502"
+						href="#ih2m1describewhathappened_page"
+						title="Go to page 'IH2M1-DescribeWhatHappened'" />
+				</map>
+			</div>
+			<!-- Division 13 -->
+			<div class="Page" id="ih2m3mainwposted_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/ih2m3mainwposted.png"
+						usemap="#map_ih2m3mainwposted" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ih2m3mainwposted">
+					<area shape="rect" coords="270,467,317,514"
+						href="#ih2m4openexistingevent_page"
+						title="Go to page 'IH2M4-OpenExistingEvent'" />
+					<area shape="rect"
+						coords="250.98333740234375,571.9833374023438,351,642"
+						href="#ih2m1describewhathappened_page"
+						title="Go to page 'IH2M1-DescribeWhatHappened'" />
+					<area shape="rect"
+						coords="43,571.9833374023438,143.01666259765625,642"
+						href="#ee1options_page" title="Go to page 'EE1-Options'" />
+					<area shape="rect" coords="94,148,125,179"
+						href="#ca1configradiusaroundu_page"
+						title="Go to page 'CA1-ConfigRadiusAroundU'" />
+					<area shape="rect" coords="270,146.98333740234375,301,178"
+						href="#sf1options2findfriends_page"
+						title="Go to page 'SF1-Options2FindFriends'" />
+					<area shape="rect" coords="315,148,346,179"
+						href="#se1nearyouoraddress_page"
+						title="Go to page 'SE1-NearYouOrAddress'" />
+					<area shape="rect" coords="32,140,92,186" href="#mm1options_page"
+						title="Go to page 'MM1-Options'" />
+				</map>
+			</div>
+			<!-- Division 14 -->
+			<div class="Page" id="ih2m4openexistingevent_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/ih2m4openexistingevent.png"
+						usemap="#map_ih2m4openexistingevent" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ih2m4openexistingevent">
+					<area shape="rect" coords="183,485,213,515"
+						href="#ih2m3mainwposted_page"
+						title="Go to page 'IH2M3-Main-w-Posted'" />
+				</map>
+			</div>
+			<!-- Division 15 -->
+			<div class="Page" id="mm1options_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/mm1options.png"
+						usemap="#map_mm1options" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_mm1options">
+					<area shape="rect" coords="155,313,185,343" href="#main_page"
+						title="Go to page 'Main'" />
+				</map>
+			</div>
+			<!-- Division 16 -->
+			<div class="Page" id="sf1options2findfriends_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/sf1options2findfriends.png"
+						usemap="#map_sf1options2findfriends" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_sf1options2findfriends">
+					<area shape="rect" coords="66,581,96,611" href="#main_page"
+						title="Go to page 'Main'" />
+					<area shape="rect" coords="274,200,315,241"
+						href="#sf2mainwfoundfriendsnear_page"
+						title="Go to page 'SF2-Main-w-FoundFriendsNear'" />
+					<area shape="rect" coords="150,410,246,446"
+						href="#sf3searchcontacts_page"
+						title="Go to page 'SF3-SearchContacts'" />
+				</map>
+			</div>
+			<!-- Division 17 -->
+			<div class="Page" id="sf2mainwfoundfriendsnear_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/sf2mainwfoundfriendsnear.png"
+						usemap="#map_sf2mainwfoundfriendsnear" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_sf2mainwfoundfriendsnear">
+					<area shape="rect" coords="251,572,351,642.0166625976562"
+						href="#ih2m1describewhathappened_page"
+						title="Go to page 'IH2M1-DescribeWhatHappened'" />
+					<area shape="rect" coords="43,572,143,642.0166625976562"
+						href="#ee1options_page" title="Go to page 'EE1-Options'" />
+					<area shape="rect" coords="94,147,125,178"
+						href="#ca1configradiusaroundu_page"
+						title="Go to page 'CA1-ConfigRadiusAroundU'" />
+					<area shape="rect"
+						coords="36.866668701171875,283.8666687011719,87.88333129882812,334.8833312988281"
+						href="#sf21sendmess2friend_page"
+						title="Go to page 'SF2.1-SendMess2Friend'" />
+					<area shape="rect"
+						coords="59.866668701171875,498.8666687011719,110.88333129882812,549.8833312988281"
+						href="#sf21sendmess2friend_page"
+						title="Go to page 'SF2.1-SendMess2Friend'" />
+					<area shape="rect"
+						coords="155.86666870117188,209.86666870117188,206.88333129882812,260.8833312988281"
+						href="#sf21sendmess2friend_page"
+						title="Go to page 'SF2.1-SendMess2Friend'" />
+					<area shape="rect"
+						coords="304.8666687011719,290.8666687011719,355.8833312988281,341.8833312988281"
+						href="#sf21sendmess2friend_page"
+						title="Go to page 'SF2.1-SendMess2Friend'" />
+					<area shape="rect" coords="270,146,301,177"
+						href="#sf1options2findfriends_page"
+						title="Go to page 'SF1-Options2FindFriends'" />
+					<area shape="rect" coords="315,146,346,177"
+						href="#se1nearyouoraddress_page"
+						title="Go to page 'SE1-NearYouOrAddress'" />
+					<area shape="rect"
+						coords="32,140,92.01666259765625,186.01666259765625"
+						href="#mm1options_page" title="Go to page 'MM1-Options'" />
+				</map>
+			</div>
+			<!-- Division 18 -->
+			<div class="Page" id="sf21sendmess2friend_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/sf21sendmess2friend.png"
+						usemap="#map_sf21sendmess2friend" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_sf21sendmess2friend">
+					<area shape="rect" coords="188,454,218,484"
+						href="#sf2mainwfoundfriendsnear_page"
+						title="Go to page 'SF2-Main-w-FoundFriendsNear'" />
+				</map>
+			</div>
+			<!-- Division 19 -->
+			<div class="Page" id="sf3searchcontacts_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/sf3searchcontacts.png"
+						usemap="#map_sf3searchcontacts" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_sf3searchcontacts">
+					<area shape="rect" coords="36.5,294,332.5,361"
+						href="#sf31successfullyaddedfriend_page"
+						title="Go to page 'SF3.1-SuccessfullyAddedFriend'" />
+				</map>
+			</div>
+			<!-- Division 20 -->
+			<div class="Page" id="sf31successfullyaddedfriend_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/sf31successfullyaddedfriend.png"
+						usemap="#map_sf31successfullyaddedfriend" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_sf31successfullyaddedfriend">
+					<area shape="rect" coords="180,399,210,429" href="#main_page"
+						title="Go to page 'Main'" />
+				</map>
+			</div>
+			<!-- Division 21 -->
+			<div class="Page" id="ca1configradiusaroundu_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/ca1configradiusaroundu.png"
+						usemap="#map_ca1configradiusaroundu" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ca1configradiusaroundu">
+					<area shape="rect" coords="152,429,248,465"
+						href="#ca2configareasofinterest_page"
+						title="Go to page 'CA2-ConfigAreasOfInterest'" />
+					<area shape="rect" coords="300,486,330,516" href="#main_page"
+						title="Go to page 'Main'" />
+				</map>
+			</div>
+			<!-- Division 22 -->
+			<div class="Page" id="ca2configareasofinterest_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block"
+						src="pages/ca2configareasofinterest.png"
+						usemap="#map_ca2configareasofinterest" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ca2configareasofinterest">
+					<area shape="rect" coords="81,542,177,578"
+						href="#ca1configradiusaroundu_page"
+						title="Go to page 'CA1-ConfigRadiusAroundU'" />
+					<area shape="rect" coords="150,589,246,625"
+						href="#ca3confirmedaoiconfig_page"
+						title="Go to page 'CA3-ConfirmedAOIConfig'" />
+				</map>
+			</div>
+			<!-- Division 23 -->
+			<div class="Page" id="ca3confirmedaoiconfig_page">
+				<div class="ImageContainer">
+					<img class="img-responsive center-block" src="pages/ca3confirmedaoiconfig.png"
+						usemap="#map_ca3confirmedaoiconfig" />
+					<p>
+						<a href="signUp.html" class="btn btn-default">Tell us what will help you!</a>
+					</p>
+				</div>
+				<map name="map_ca3confirmedaoiconfig">
+					<area shape="rect" coords="83,543,179,579"
+						href="#ca2configareasofinterest_page"
+						title="Go to page 'CA2-ConfigAreasOfInterest'" />
+					<area shape="rect" coords="217,543,313,579" href="#main_page"
+						title="Go to page 'Main'" />
+				</map>
+			</div>
+			<!-- Here is where the prototype ends  -->
+		</div>
+	</div>
+
+	<div class="container">
+		<hr>
+		<footer>
+			<p>
+				Powered by <span class="emphasis">&copy; C-THREAT</span> Partnership
+				2016
+			</p>
+		</footer>
+	</div>
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

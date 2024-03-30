@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	<title>Sys Admin</title>
+	<script type="text/javascript" src="/toasthubweb/libs/jquery/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/toasthubweb/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/toasthubweb/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/toasthubweb/1.0/js/toastHub-core.js"></script>
+	<script type="text/javascript" src="/toasthubweb/1.0/js/toastHub-sideMenu.js"></script>
+	<link href="/toasthubweb/libs/jqueryui/1.10.3/themes/base/jquery-ui.css" rel="stylesheet">
+	<link href="/toasthubweb/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="/toasthubweb/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="/toasthubweb/1.0/admin/css/custom.css" rel="stylesheet">
+
+	<script type="text/javascript">
+		jQuery.noConflict();
+		jQuery.ajaxSetup({cache:false});
+		if(window.location.search) {
+			toastHub.setParamMap(toastHub.utils.queryString());
+			}	
+	
+   		toastHub.service = "SYSADMIN_SVC";
+   		toastHub.load({"restUrl":"/ezborg/rest/"});
+    </script>
+    <script type="text/javascript">
+	    jQuery(document).ready(function() {
+			window.onhashchange = function(evt){
+				   var updatedHash = evt.newURL.split("#")[1];
+				   console.log("hash " + updatedHash);
+				   //toastHub.ready({hash:updatedHash});
+				};
+				// init page
+			   toastHub.ready({code:"page"});
+		});	
+    </script>
+</head>
+<body id="page-top" class="nav-md">
+</body>
+</html>

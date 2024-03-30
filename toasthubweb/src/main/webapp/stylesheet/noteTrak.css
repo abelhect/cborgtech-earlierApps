@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+input, textarea {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid;
+    padding: 2px 5px;
+    font-size: 12px;
+    margin: 0;
+    background: #FFFFCC;
+    width: 100%;
+}
+
+#input-area { width:100%;}
+#input-area ul { padding:0; margin:0; white-space:nowrap; }
+#input-area li { width: 100%; list-style-type:none; }
